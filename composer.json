@@ -1,0 +1,22 @@
+{
+    "name": "sf/mvc",
+    "description": "try",
+    "type": "project",
+    "require": {
+        "gabordemooij/redbean": "dev-master",
+        "monolog/monolog": "^3.0@dev"
+    },
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app\\"
+        }
+    },
+    "authors": [
+        {
+            "name": "KorenevVyacheslav",
+            "email": "aww1@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}

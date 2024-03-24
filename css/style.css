@@ -1,0 +1,39 @@
+body {
+    /* background-color: #636b6f; */
+    background-color: #f0f1f1;
+
+}
+
+.card-header {
+    padding: 15px;
+    color: #000000;
+}
+
+.card-body {
+    padding: 15px;
+    font-size: 20px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+p {
+    font-size: 20px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a, h1 {
+    color: #000000;
+}
+
+.footer, .footer p {
+    color: #000000;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+table, td {
+	border: 1px solid #e3e3e3;
+	padding: 5px;
+}
+
+

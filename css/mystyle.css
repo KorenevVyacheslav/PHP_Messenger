@@ -1,0 +1,228 @@
+header, main, footer {
+    padding-left: 250px;
+}
+
+@media only screen and (max-width: 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+@font-face {
+    font-family: 'GUERRILLA-Normal';
+    src: url('../font/GUERRILLA-Normal/GUERRILLA-Normal.eot');
+    src: url('../font/GUERRILLA-Normal/GUERRILLA-Normal.eot?#iefix') format('embedded-opentype'),
+    url('../font/GUERRILLA-Normal/GUERRILLA-Normal.woff2') format('woff2'),
+    url('../font/GUERRILLA-Normal/GUERRILLA-Normal.woff') format('woff'),
+    url('../font/GUERRILLA-Normal/GUERRILLA-Normal.ttf') format('truetype'),
+    url('../font/GUERRILLA-Normal/GUERRILLA-Normal.svg#GUERRILLA-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#logotip {
+    height: 150px;
+    padding: 0;
+}
+
+.side-nav li {
+    font-weight: bold;
+    padding: 0;
+}
+
+#chat_list, #friend_list, #search_body, #im_list, #change_avatar_div {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#input_row {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+#textarea_field {
+    margin: 0;
+    padding: 0;
+}
+
+#send_button > i {
+    font-size: 20px;
+}
+
+#edit_button > i {
+    font-size: 20px;
+}
+
+body {
+    background-color: #e0f2f1;
+}
+
+.message {
+    background-color: rgba(178, 223, 219, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.date {
+    font-style: italic;
+    color: #888;
+    font-size: 12px;
+}
+
+a.button_delete {
+    color: #555;
+}
+
+.bubble {
+    background-color: rgba(49, 27, 146, 0.7);
+    color: #fff;
+    font-family: GUERRILLA-Normal, sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.chat-view {
+    margin: 10px 0 10px 0;
+}
+
+.chat-view div.cv-avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+.chat-view div.cv-text {
+    word-wrap: break-word;
+    max-width: 75%;
+    padding: 10px;
+    background-color: rgba(178, 223, 219, 0.5);
+    border-radius: 10px;
+}
+
+.chat-view.cv-friend div.cv-avatar {
+    float: left;
+    margin-right: 10px;
+}
+
+.chat-view.cv-friend div.cv-text {
+    float: left;
+    text-align: left;
+}
+
+.chat-view.cv-host div.cv-avatar {
+    float: right;
+    margin-left: 10px;
+}
+
+.chat-view.cv-host div.cv-text {
+    float: right;
+    text-align: right;
+}
+
+.chat-view:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+a.friend {
+    display: inline-block;
+}
+
+a.friend table {
+    color: #444444;
+    background-color: rgba(178, 223, 219, 0.3);
+    border-radius: 15px;
+    margin-top: 10px;
+    width: auto;
+}
+
+a.friend table:hover {
+    background-color: rgba(178, 223, 219, 0.5);
+}
+
+a.friend table:hover a.button_delete {
+    display: block !important;
+}
+
+a.friend table tr {
+    line-height: 1;
+}
+
+a.friend table tr td.friend-image {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+a.friend table tr td.friend-name {
+    padding-right: 15px;
+    word-break: break-all;
+    font-weight: bold;
+}
+
+a.friend table tr td.friend-delete {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+}
+
+i.krest {
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+i.krest:hover {
+    background-color: #f99;
+}
+
+a.im-view {
+    display: inline-block;
+    line-height: 1;
+}
+
+a.im-view .myrow {
+    margin: 10px 0 10px 0 !important;
+}
+
+a.im-view .myrow div.im-avatar {
+    float: left;
+    margin-right: 10px;
+}
+
+a.im-view .myrow div.im-avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+a.im-view .myrow div.im-name {
+    color: #444444;
+    float: left;
+    word-wrap: break-word;
+    max-width: 75%;
+    text-align: left;
+    padding: 10px;
+    background-color: rgba(178, 223, 219, 0.5);
+    border-radius: 10px;
+}
+
+a.im-view .myrow .im-name-header {
+    font-weight: bold;
+}
+
+a.im-view .myrow .im-name-body {
+    font-style: italic;
+    font-size: 13px;
+}
+
+#loader {
+    min-height: 70px;
+}
+
+#chat_form > div.row {
+    margin-bottom: 0;
+}
